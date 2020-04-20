@@ -1,3 +1,19 @@
 <!--Pages/home/home.wxml-->
 <text class="title">Hello World</text>
 <button size="mini">click</button>
+
+
+<!--数据的绑定->Mustache-->
+<view>Hello {{name}}</view>
+<view>age:{{age}}</view>
+
+
+<!--数组的输出-->
+<view>{{student[0].name}}</view>
+<view wx:for="{{student}}">{{item.id}}-{{item.name}}</view>
+
+
+<view>counter: {{counter}}</view>
+<!--数据监听-->
+<button size="mini" bindtap="handlebtnClick">+</button>
+<button size="mini" bindtap="handleSub">-</button>
