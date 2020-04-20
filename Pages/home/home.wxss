@@ -1,0 +1,5 @@
+/* Pages/home/home.wxss */
+.title{
+  font-size: 30px;
+  color:red
+}
