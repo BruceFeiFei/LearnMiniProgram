@@ -1,5 +1,31 @@
 {
   "pages": [
-    "Pages/home/home"
-  ]
+    "Pages/home/home",
+    "Pages/categroy/categroy"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Dot的小程序",
+    "backgroundColor": "pink",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "Pages/home/home",
+        "text": "text",
+        "iconPath": "asset/tabbar/weixin_resource/a19.png",
+        "selectedIconPath": "asset/tabbar/weixin_resource/a19.png"
+      },
+      {
+        "pagePath": "Pages/categroy/categroy",
+        "text": "text",
+        "iconPath": "asset/tabbar/weixin_resource/a0r.png",
+        "selectedIconPath": "asset/tabbar/weixin_resource/a0r.png"
+      }
+    ]
+  }
 }
