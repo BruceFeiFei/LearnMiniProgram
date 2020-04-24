@@ -1,3 +1,12 @@
 <!--Pages/home/home.wxml-->
 <text class="title">Hello World</text>
 <button size="mini">click</button>
+<!--2.获取用户信息-->
+<button size="mini"  
+        open-type="getUserInfo"        
+        bindgetuserinfo="handleGetUserinfo">
+  授权获取用户信息
+</button>
+<!--3.获取用户信息-->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
