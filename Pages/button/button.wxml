@@ -1,0 +1,12 @@
+<!--Pages/button/button.wxml-->
+<!--button基本使用-->
+<button>按钮</button>
+<button  size="mini">按钮</button>
+<button  size="mini">按钮</button>
+<button  size="mini" type="primary">按钮</button>
+<button  size="mini" type="warn">按钮</button>
+<button  size="mini" plain>按钮</button>
+<!--默认不可用-->
+<button  size="mini" disabled>按钮</button>
+<!--loading-->
+<button  size="mini" loading="{{isloading}}">按钮</button>
