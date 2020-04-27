@@ -65,5 +65,13 @@ Page({
   },
   handleGetUserinfo(event){
     console.log(event)
+  },
+  //-------监听页面滚动---------
+  onPageScroll(obj){
+    console.log(obj)
+  },
+  //监听页面是否滚动至底部
+  onReachBottom(){
+    console.log('页面滚动至底部')
   }
 })
